@@ -18,6 +18,8 @@ public class DriverFactory {
                     case "Chrome":
                         ChromeOptions co=new ChromeOptions();
                         co.addArguments("--remote-allow-origins=*");
+                        co.addArguments("--headless");
+                        co.addArguments("--window-size=1920x1080");
                         WebDriverManager.chromedriver().setup();
                         driver = new ChromeDriver(co);
                         break;
