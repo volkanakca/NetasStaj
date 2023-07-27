@@ -4,6 +4,9 @@
     <test name="Regresyon Seti">
         <classes>
             <class name="TestCase.Test1"/>
+            <class name="TestCase.Test2"/>
+            <class name="TestCase.Test3"/>
+            <class name="TestCase.Test4"/>
         </classes>
     </test>
 </suite>
