@@ -84,7 +84,7 @@ public class BaseMethod {
     }
     @Step("Gorunur popUp varsa kapatma islemini gerceklestirir. {WebElement}")
     public void popUpIfExist(WebElement webElement) {
-        wait(2);
+        wait(4);
         if (checkElementVisible(webElement)) {
             webElement.click();
             LOG.info(" PopUp Kapatıldı");
